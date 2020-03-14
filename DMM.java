@@ -26,7 +26,6 @@ public class DMM {
   }
 
   public void world() {
-  	b = 2;
   }
 
 }
