@@ -1,4 +1,4 @@
-public class DMM {
+public class DMM2 {
 
   public void hello() {
 	a = 1;
@@ -25,6 +25,10 @@ public class DMM {
 
   public void world() {
 	c = 3;
+  }
+
+  public void universe() {
+  	d = 4;
   }
 
 }
