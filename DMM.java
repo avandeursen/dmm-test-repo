@@ -41,8 +41,10 @@ public class DMM {
 	d = 4;
   }
 
-  public void world() {
-	c = 3;
+  /*
+   * Unit interfacing on-point: low risk
+   */
+  public void world(int a, int b) {
+	return a + b;
   }
-
 }
