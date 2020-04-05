@@ -49,7 +49,7 @@ public class DMM {
   }
 
   /*
-   * Unit complexity on-point: low risk.
+   * Unit complexity off-point: risky
    */
   public String complexity(int m) {
   	switch (m) {
@@ -61,4 +61,24 @@ public class DMM {
   		default: return null;
   	}
   }
+
+  /*
+   * Unit size on-point: low  risk
+   */
+  public int size() { // line 1
+  	int line = 2;
+  	line = 3;
+ 	line = 4;
+  	line = 5;
+  	line = 6;
+  	line = 7;
+  	line = 8;
+  	line = 9;
+  	line = 10;
+  	line = 11;
+  	line = 12;
+  	line = 13;
+  	line = 14;
+  } // line  15
+
 }
