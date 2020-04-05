@@ -63,7 +63,7 @@ public class DMM {
   }
 
   /*
-   * Unit size on-point: low  risk
+   * Unit size off-point: risky
    */
   public int size() { // line 1
   	int line = 2;
@@ -79,6 +79,7 @@ public class DMM {
   	line = 12;
   	line = 13;
   	line = 14;
-  } // line  15
+  	line = 15;
+  } // line  16
 
 }
