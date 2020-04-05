@@ -47,4 +47,17 @@ public class DMM {
   public void world(int a, int b, int c) {
 	return a + b;
   }
+
+  /*
+   * Unit complexity on-point: low risk.
+   */
+  public String complexity(int m) {
+  	switch (m) {
+  		case 1: return "January"; break;
+  		case 2: return "January"; break;
+  		case 3: return "January"; break;
+  		case 4: return "January"; break;
+  		default: return null;
+  	}
+  }
 }
